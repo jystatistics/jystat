@@ -1,0 +1,56 @@
+---
+title: "Sufficiency"
+header_includes:
+- \usepackage{amsmath}
+- \usepackage{amssymb}
+- \usepackage{amsthm}
+author: "Jongyun Jung"
+date: '2018-07-05'
+slug: sufficiency
+categories: ["`Mathematical Statistics`"]
+tags: ["`Theory of Statistics`"]
+draft: false
+output:
+  blogdown::html_page:
+    toc: true 
+    toc_depth: 2
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning=FALSE, message=FALSE, 
+                      results='show', cache=FALSE, autodep=FALSE)
+```
+
+In this post, I would like to write about **Sufficiency**. Here is the plan for this post.
+
+-----------------------
+
+# Ch 7. Sufficiency
+
+## 1. Measures of Quality of Estimators
+
+Consider a point estimator $Y_n = u(X_1, \cdots, X_n)$ based on a sample $X_1, \cdots, X_n$. There is a several properties of point estimators:
+
+  1. $Y_n$ is a consistent estimator of $\theta$ if $Y_n$ converges to $\theta$ in probability; i.e., $Y_n$ is close to $\theta$ for large sample sizes. 
+  
+  2. $Y_n$ is an unbiased estimator of $\theta$ if $E(Y_n$) = $\theta$. Note that maximum likelihood estimators may not be unbiased, although generally they are asymptotically unbiased. 
+
+```{definition}
+For a given positive integer $n, Y = u(X_1, X_2, \cdots, X_n)$ is called a **minimum variance unbiased estimator (MVUE)** of the parameter $\theta$ if $Y$ is unbiased, that is, $E(Y) = \theta$, and if the variance of $Y$ is less than or equal to the variance of every other unbiased estimator of $\theta$.
+```
+
+-----------------------
+
+## 2. A Sufficient Statistics for a Parameter
+
+```{definition}
+Let $X_1, X_2, \cdots, X_n$ denote a random sample of size $n$ from a distribution that has pdf or pmf $f(x;\theta), \theta \in \Omega$. Let $Y_1 = u_1(X_1, X_2, \cdots, X_n)$ be a statistic whose pdf or pmf is $f_{Y_1}(y_1; \theta)$. Then $Y_1$ is a **sufficient statistic** for $\theta$ if and only if 
+
+$$\frac{f(x_1;\theta)f(x_2;\theta) \cdots f(x_n;\theta)}{f_{Y_1}[u_1(x_1,x_2,\cdots,x_n);\theta]} = H(x_1, x_2, \cdots, x_n) $$
+  
+  where $H(x_1, x_2, \cdots, x_n)$ does not depend upon $\theta \in \Omega$.
+```
+
+**References:**
+
+1. Introduction to Mathematical Statistics, Robert V. Hogg, Joeseph McKean, Allen T. Craig, Seventh Edition

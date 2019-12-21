@@ -1,0 +1,29 @@
+---
+title: "List of Common Discrete Distributions"
+author: "Jongyun Jung"
+date: 2018-06-18T21:13:14-05:00
+categories: ["Mathematical Statistics"]
+tags: ["Distribution"]
+---
+
+I would like to post the list of common discrete distribution. 
+
+$$
+\begin{array}{ | c | l | l | l | l | l |}
+\hline
+\text{ Discrete Distribution } & \text{ Condition } & \text{ Function } & \text{ Mean } & \text{ SD } & \text{MGF} \\
+\hline
+\text{Bernouli} & 0 < p <1 & p(x) = p^x (1 - p)^{1 - x}, x = 0, 1 & \mu = p & \sigma^2 = p(1 - p) & m(t) = [(1-p)+pe^t]\\
+\hline
+\text{Binomial} & 0 < P < 1, n = 1, 2,\cdots & p(x) = {N \choose x} p^x (1 - p)^{n-x}, x=0,1,2, \cdots, n & \mu = np & \sigma^2 = np(1-p) & m(t) = [(1-p)+pe^t]^n  \\
+\hline
+\text{Geometric} & 0 < 0 < 1 & p(x) = p(1-p)^x, x=0,1,2, \cdots & \mu = \frac{p}{q} & \sigma^2 = \frac{1-p}{p^2} & m(t) = p[1-(1-p)e^t]^{-1}, t < -\log(1-p) \\
+\hline
+\text{Hypergeometric}(N,D,n) & n=1,2,\cdots,\text{min}(N,D) & p(x)=\frac{{N-D \choose n-x}{D \choose x}}{{N \choose n}}, x=0,1,2, \cdots, n & \mu = n \frac{D}{N} & \sigma^2 = n\frac{D}{N}\frac{N-D}{N}\frac{N-n}{N-1} & \text{DNE} \\
+\hline
+\text{Negative Binomial} & 0 < p < 1, r = 1,2, \cdots & p(x) = {x+r-1 \choose r-1}p^r(1-p)^x, x=0,1,2,\cdots & \mu = \frac{rp}{q} & \sigma^2=\frac{r(1-p)}{p^2} & m(t) = p^r[1-(1-p)e^t]^{-r},t <-\log(1-p) \\
+\hline
+\text{Poisson} & m > 0 & p(x) = e^{-m}\frac{m^x}{x!}, x=0,1,2,\cdots & \mu=m & \sigma^2=m & m(t) = \text{exp}[m(e^t-1)], -\infty < t <\infty \\
+\hline
+\end{array}
+$$

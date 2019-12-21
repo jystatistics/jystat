@@ -1,0 +1,43 @@
+
+<div id="TOC">
+<ul>
+<li><a href="#ch-7.-sufficiency">Ch 7. Sufficiency</a><ul>
+<li><a href="#measures-of-quality-of-estimators">1. Measures of Quality of Estimators</a></li>
+<li><a href="#a-sufficient-statistics-for-a-parameter">2. A Sufficient Statistics for a Parameter</a></li>
+</ul></li>
+</ul>
+</div>
+
+<p>In this post, I would like to write about <strong>Sufficiency</strong>. Here is the plan for this post.</p>
+<hr />
+<div id="ch-7.-sufficiency" class="section level1">
+<h1>Ch 7. Sufficiency</h1>
+<div id="measures-of-quality-of-estimators" class="section level2">
+<h2>1. Measures of Quality of Estimators</h2>
+<p>Consider a point estimator <span class="math inline">\(Y_n = u(X_1, \cdots, X_n)\)</span> based on a sample <span class="math inline">\(X_1, \cdots, X_n\)</span>. There is a several properties of point estimators:</p>
+<ol style="list-style-type: decimal">
+<li><p><span class="math inline">\(Y_n\)</span> is a consistent estimator of <span class="math inline">\(\theta\)</span> if <span class="math inline">\(Y_n\)</span> converges to <span class="math inline">\(\theta\)</span> in probability; i.e., <span class="math inline">\(Y_n\)</span> is close to <span class="math inline">\(\theta\)</span> for large sample sizes.</p></li>
+<li><p><span class="math inline">\(Y_n\)</span> is an unbiased estimator of <span class="math inline">\(\theta\)</span> if <span class="math inline">\(E(Y_n\)</span>) = <span class="math inline">\(\theta\)</span>. Note that maximum likelihood estimators may not be unbiased, although generally they are asymptotically unbiased.</p></li>
+</ol>
+
+<div class="definition">
+<span id="def:unnamed-chunk-1" class="definition"><strong>Definition 1  </strong></span>For a given positive integer <span class="math inline">\(n, Y = u(X_1, X_2, \cdots, X_n)\)</span> is called a <strong>minimum variance unbiased estimator (MVUE)</strong> of the parameter <span class="math inline">\(\theta\)</span> if <span class="math inline">\(Y\)</span> is unbiased, that is, <span class="math inline">\(E(Y) = \theta\)</span>, and if the variance of <span class="math inline">\(Y\)</span> is less than or equal to the variance of every other unbiased estimator of <span class="math inline">\(\theta\)</span>.
+</div>
+
+<hr />
+</div>
+<div id="a-sufficient-statistics-for-a-parameter" class="section level2">
+<h2>2. A Sufficient Statistics for a Parameter</h2>
+
+<div class="definition">
+<p><span id="def:unnamed-chunk-2" class="definition"><strong>Definition 2  </strong></span>Let <span class="math inline">\(X_1, X_2, \cdots, X_n\)</span> denote a random sample of size <span class="math inline">\(n\)</span> from a distribution that has pdf or pmf <span class="math inline">\(f(x;\theta), \theta \in \Omega\)</span>. Let <span class="math inline">\(Y_1 = u_1(X_1, X_2, \cdots, X_n)\)</span> be a statistic whose pdf or pmf is <span class="math inline">\(f_{Y_1}(y_1; \theta)\)</span>. Then <span class="math inline">\(Y_1\)</span> is a <strong>sufficient statistic</strong> for <span class="math inline">\(\theta\)</span> if and only if</p>
+<p><span class="math display">\[\frac{f(x_1;\theta)f(x_2;\theta) \cdots f(x_n;\theta)}{f_{Y_1}[u_1(x_1,x_2,\cdots,x_n);\theta]} = H(x_1, x_2, \cdots, x_n) \]</span></p>
+where <span class="math inline">\(H(x_1, x_2, \cdots, x_n)\)</span> does not depend upon <span class="math inline">\(\theta \in \Omega\)</span>.
+</div>
+
+<p><strong>References:</strong></p>
+<ol style="list-style-type: decimal">
+<li>Introduction to Mathematical Statistics, Robert V. Hogg, Joeseph McKean, Allen T. Craig, Seventh Edition</li>
+</ol>
+</div>
+</div>

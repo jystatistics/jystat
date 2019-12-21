@@ -1,0 +1,20 @@
+---
+title: "How to read the academic paper"
+author: "Jongyun Jung"
+date: "8/8/2018"
+output: html_document
+---
+
+This is the summary of my notes for "how to read the academic paper".
+
+Useful links:
+
+ - [how to read the academic article](https://organizationsandmarkets.com/2010/08/31/how-to-read-an-academic-article/)
+ 
+ - [Advice on Reading Academic Papers](https://www.cc.gatech.edu/~akmassey/posts/2012-02-15-advice-on-reading-academic-papers.html)
+
+ - [How to read and understand a scientific paper: a guide for non-scientists](https://violentmetaphors.com/2013/08/25/how-to-read-and-understand-a-scientific-paper-2/)
+ 
+ - [Should I read papers?](http://michaelrbernste.in/2014/10/21/should-i-read-papers.html)
+ 
+ - [The Refreshingly Rewarding Realm of Research Papers(Youtube)](https://www.youtube.com/watch?v=8eRx5Wo3xYA)

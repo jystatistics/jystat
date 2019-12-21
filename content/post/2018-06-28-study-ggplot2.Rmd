@@ -1,0 +1,132 @@
+---
+title: "Study `ggplot2`"
+author: "Jongyun Jung"
+date: '2018-06-28'
+slug: study-ggplot2
+categories: ["`ggplot2`"]
+tags: ["`ggplot2`","RStudio"]
+draft: false
+output:
+  blogdown::html_page:
+    toc: true 
+---
+
+# Day 1
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning=FALSE, message=FALSE, 
+                      results='show', cache=FALSE, autodep=FALSE)
+```
+
+This is the self-study of `ggplot2` book by myself. All this material are from the book of [ggplot2](https://github.com/hadley/ggplot2-book).
+
+```{r}
+# Loading the package of ggplot2
+library(ggplot2)
+```
+
+```{r}
+# Read the data set 'mpg'
+mpg
+```
+
+According to the book, every `ggplot2` plot has **three key components**:
+
+1. **data**
+
+2. A set of **aesthetic mappings** between variables in the data and visual properties, and
+
+3. At least one layer which describes how to render each observation. Layers are usually created with a **geom** function.
+
+Here is the book example:
+
+```{r}
+ggplot(mpg, aes(x = displ, y = hwy)) + geom_point()
+```
+
+This example plot shows that 
+
+1. Data: mpg
+
+2. Aesthetic mapping: engine size mapped to x position, fuel economy to y position
+
+3. Layer: points
+
+Below is the exercises problem from the book.
+
+```{r}
+ggplot(mpg, aes(cty, hwy)) + geom_point()
+ggplot(diamonds, aes(carat, price)) + geom_point()
+ggplot(economics, aes(date, unemploy)) + geom_line()
+ggplot(mpg, aes(cty)) + geom_histogram()
+```
+
+There is a way that we could map the class variable to colour:
+
+```{r}
+ggplot(mpg, aes(displ, cty, colour = class)) + geom_point()
+```
+
+This gives each point a unique colour corresponding to its class. If you want to set an aesthetic to a fixed value, without scaling it, we can use `aes()`. Different types of aesthetic attributes work better with different types of variables. 
+
+```{r}
+ggplot(mpg, aes(displ, hwy)) + geom_point(aes(colour = "blue"))
+ggplot(mpg, aes(displ, hwy)) + geom_point(colour = "blue")
+```
+
+## **Facetting**
+
+There are two types of facetting: grid and wrapped. Wrapped is the most useful one. To add a facetting, just add `facet_wrap()`, which takes the name of a variable preceded by ~.
+
+```{r}
+ggplot(mpg, aes(displ, hwy)) + geom_point() + facet_wrap(~class)
+```
+
+## **Plot Geoms**
+
+*`geom_smooth()` fits a smoother to the data and displays the smooth and its standard error. 
+
+*`geom_boxplot()` produces a box-and-whisker plot to summarise the distribution of a set of points. 
+
+*`geom_histogram()` and `geom_freqpoly()` show the distribution of continuous variables. 
+
+*`geom_bar()` shows the distribution of categorical variables.
+
+*`geom_path()` and `geom_line()` draw lines between the data points. A line plot is constrained to produce lines that travel from left to right, while paths can go in any direction. Lines are typically used to explore how things change over time. 
+
+### Adding a Smoother to a Plot
+
+If you have a scatterplot with a lot of noise, it is hard to see any pattern, then we can add a smoothed line to the plot with `geom_smooth()`.
+
+```{r}
+ggplot(mpg, aes(displ, hwy)) + geom_point() + geom_smooth()
+```
+
+We can turn off the confidence interval with `geom_smooth(se = FALSE)`. An important argument to `geom_smooth()` is the `method`, which allows to choose which type of model is used to fit the smooth curve. 
+
+* `method = "loess"`, the default for small `n`, uses a smooth local regression. The wiggliness of the line is controlled by the `span` parameter, which ranges from 0 (exceedingly wiggly) to 1 (not so wiggly). 
+
+
+`loess` does not work well for large dataset, so an alternative smoothing algorithm is used when `n` is greater than 1000. 
+
+* `method = "gam"` fits a generalised additive model provided by the **mgcv** package. We need to first load mgcv package and then use a formula like `formula = y ~ s(x)` or `y ~ s(x, bs = "cs")` (for large data). 
+
+* `method = "lm"` fits a linear model, giving the line of best fit
+
+```{r}
+ggplot(mpg, aes(displ, hwy)) + geom_point() + geom_smooth(method = "lm")
+```
+
+* `method = "rlm"` works like `lm()`, but uses a robust fitting algorithms so that outliers don't affect the fit as much. This is part of the `MASS` package, so needs to load first. 
+
+## *Modifying the Axes*
+
+`xlab()` and `ylab()` modify the `x-` and `y-` axis labels:
+
+```{r}
+ggplot(mpg, aes(cty, hwy)) + geom_point(alpha = 1/ 3)
+ggplot(mpg, aes(cty, hwy)) + geom_point(alpha = 1/ 3) + xlab("city driving (mpg)") + ylab("highway driving (mpg)")
+
+# Remove the axis labels with NULL
+ggplot(mpg, aes(cty, hwy)) + geom_point(alpha = 1/ 3) + xlab(NULL) + ylab(NULL)
+```
