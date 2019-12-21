@@ -2,8 +2,8 @@ baseurl = "https://jystatistics.netlify.com//"
 languageCode = "en-us"
 title = "Welcome to Jongyun Jung's Website"
 theme = "hugo-lithium"
-googleAnalytics = ""
-disqusShortname = ""
+googleAnalytics = "UA-121054369-1"
+disqusShortname = "http-jystatistics-rbind-io"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [permalinks]
@@ -14,6 +14,15 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 [[menu.main]]
     name = "About"
     url = "/about/"
+[[menu.main]]
+    name = "Blog"
+    url = "/post/"
+[[menu.main]]
+    name = "Tags"
+    url = "/tags/"
+[[menu.main]]
+    name = "CV"
+    url = "/CV/"
 [[menu.main]]
     name = "GitHub"
     url = "https://github.com/jystatistics"
