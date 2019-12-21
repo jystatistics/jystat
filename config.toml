@@ -1,4 +1,4 @@
-baseurl = "https://jystatistics.rbind.io/"
+baseurl = "https://jystatistics.netlify.com//"
 languageCode = "en-us"
 title = "Welcome to Jongyun Jung's Website"
 theme = "hugo-lithium"
