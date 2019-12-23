@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>`Mathematical Statistics` on Welcome to Jongyun Jung&#39;s Website</title>
+    <link>/categories/mathematical-statistics/</link>
+    <description>Recent content in `Mathematical Statistics` on Welcome to Jongyun Jung&#39;s Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 05 Jul 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/mathematical-statistics/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Sufficiency</title>
+      <link>/2018/07/05/sufficiency/</link>
+      <pubDate>Thu, 05 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/07/05/sufficiency/</guid>
+      <description>Ch 7. Sufficiency1. Measures of Quality of Estimators2. A Sufficient Statistics for a ParameterIn this post, I would like to write about Sufficiency. Here is the plan for this post.
+Ch 7. Sufficiency1. Measures of Quality of EstimatorsConsider a point estimator \(Y_n = u(X_1, \cdots, X_n)\) based on a sample \(X_1, \cdots, X_n\). There is a several properties of point estimators:</description>
+    </item>
+    
+    <item>
+      <title>List of Common Discrete Distributions</title>
+      <link>/2018/06/18/list-of-common-discrete-distributions/</link>
+      <pubDate>Mon, 18 Jun 2018 21:13:14 -0500</pubDate>
+      
+      <guid>/2018/06/18/list-of-common-discrete-distributions/</guid>
+      <description>I would like to post the list of common discrete distribution.
+\[\begin{array}{ | c | l | l | l | l | l |}\hline\text{ Discrete Distribution } &amp;amp; \text{ Condition } &amp;amp; \text{ Function } &amp;amp; \text{ Mean } &amp;amp; \text{ SD } &amp;amp; \text{MGF} \\\hline\text{Bernouli} &amp;amp; 0 &amp;lt; p &amp;lt;1 &amp;amp; p(x) = p^x (1 - p)^{1 - x}, x = 0, 1 &amp;amp; \mu = p &amp;amp; \sigma^2 = p(1 - p) &amp;amp; m(t) = [(1-p)+pe^t]\\\hline\text{Binomial} &amp;amp; 0 &amp;lt; P &amp;lt; 1, n = 1, 2,\cdots &amp;amp; p(x) = {N \choose x} p^x (1 - p)^{n-x}, x=0,1,2, \cdots, n &amp;amp; \mu = np &amp;amp; \sigma^2 = np(1-p) &amp;amp; m(t) = [(1-p)+pe^t]^n \\\hline\text{Geometric} &amp;amp; 0 &amp;lt; 0 &amp;lt; 1 &amp;amp; p(x) = p(1-p)^x, x=0,1,2, \cdots &amp;amp; \mu = \frac{p}{q} &amp;amp; \sigma^2 = \frac{1-p}{p^2} &amp;amp; m(t) = p[1-(1-p)e^t]^{-1}, t &amp;lt; -\log(1-p) \\\hline\text{Hypergeometric}(N,D,n) &amp;amp; n=1,2,\cdots,\text{min}(N,D) &amp;amp; p(x)=\frac{{N-D \choose n-x}{D \choose x}}{{N \choose n}}, x=0,1,2, \cdots, n &amp;amp; \mu = n \frac{D}{N} &amp;amp; \sigma^2 = n\frac{D}{N}\frac{N-D}{N}\frac{N-n}{N-1} &amp;amp; \text{DNE} \\\hline\text{Negative Binomial} &amp;amp; 0 &amp;lt; p &amp;lt; 1, r = 1,2, \cdots &amp;amp; p(x) = {x+r-1 \choose r-1}p^r(1-p)^x, x=0,1,2,\cdots &amp;amp; \mu = \frac{rp}{q} &amp;amp; \sigma^2=\frac{r(1-p)}{p^2} &amp;amp; m(t) = p^r[1-(1-p)e^t]^{-r},t &amp;lt;-\log(1-p) \\\hline\text{Poisson} &amp;amp; m &amp;gt; 0 &amp;amp; p(x) = e^{-m}\frac{m^x}{x!</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>`ggplot2` on Welcome to Jongyun Jung&#39;s Website</title>
+    <link>/categories/ggplot2/</link>
+    <description>Recent content in `ggplot2` on Welcome to Jongyun Jung&#39;s Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 28 Jun 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/ggplot2/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Study `ggplot2`</title>
+      <link>/2018/06/28/study-ggplot2/</link>
+      <pubDate>Thu, 28 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/06/28/study-ggplot2/</guid>
+      <description>Day 1FacettingPlot GeomsAdding a Smoother to a PlotModifying the AxesDay 1This is the self-study of ggplot2 book by myself. All this material are from the book of ggplot2.
+# Loading the package of ggplot2library(ggplot2)# Read the data set &amp;#39;mpg&amp;#39;mpg## # A tibble: 234 x 11## manufacturer model displ year cyl trans drv cty hwy fl class## &amp;lt;chr&amp;gt; &amp;lt;chr&amp;gt; &amp;lt;dbl&amp;gt; &amp;lt;int&amp;gt; &amp;lt;int&amp;gt; &amp;lt;chr&amp;gt; &amp;lt;chr&amp;gt; &amp;lt;int&amp;gt; &amp;lt;int&amp;gt; &amp;lt;chr&amp;gt; &amp;lt;chr&amp;gt;## 1 audi a4 1.</description>
+    </item>
+    
+  </channel>
+</rss>

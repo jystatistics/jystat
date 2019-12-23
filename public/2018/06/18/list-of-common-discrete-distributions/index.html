@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.61.0" />
+
+
+<title>List of Common Discrete Distributions - Welcome to Jongyun Jung&#39;s Website</title>
+<meta property="og:title" content="List of Common Discrete Distributions - Welcome to Jongyun Jung&#39;s Website">
+
+
+  <link href='../../../../favicon.ico' rel='icon' type='image/x-icon'/>
+
+
+
+  
+
+
+
+
+
+
+
+<link rel="stylesheet" href="../../../../css/fonts.css" media="all">
+<link rel="stylesheet" href="../../../../css/main.css" media="all">
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="../../../../" class="nav-logo">
+    <img src="../../../../images/logo.png"
+         width="50"
+         height="50"
+         alt="Logo">
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="../../../../about/">About</a></li>
+    
+    <li><a href="../../../../post/">Blog</a></li>
+    
+    <li><a href="../../../../cv/">CV</a></li>
+    
+    <li><a href="https://github.com/jystatistics">GitHub</a></li>
+    
+    <li><a href="../../../../tags/">Tags</a></li>
+    
+    <li><a href="https://twitter.com/jungjongyun83">Twitter</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">2 min read</span>
+    
+
+    <h1 class="article-title">List of Common Discrete Distributions</h1>
+
+    
+    <span class="article-date">2018-06-18</span>
+    
+
+    <div class="article-content">
+      
+
+
+<p>I would like to post the list of common discrete distribution.</p>
+<p><span class="math display">\[
+\begin{array}{ | c | l | l | l | l | l |}
+\hline
+\text{ Discrete Distribution } &amp; \text{ Condition } &amp; \text{ Function } &amp; \text{ Mean } &amp; \text{ SD } &amp; \text{MGF} \\
+\hline
+\text{Bernouli} &amp; 0 &lt; p &lt;1 &amp; p(x) = p^x (1 - p)^{1 - x}, x = 0, 1 &amp; \mu = p &amp; \sigma^2 = p(1 - p) &amp; m(t) = [(1-p)+pe^t]\\
+\hline
+\text{Binomial} &amp; 0 &lt; P &lt; 1, n = 1, 2,\cdots &amp; p(x) = {N \choose x} p^x (1 - p)^{n-x}, x=0,1,2, \cdots, n &amp; \mu = np &amp; \sigma^2 = np(1-p) &amp; m(t) = [(1-p)+pe^t]^n  \\
+\hline
+\text{Geometric} &amp; 0 &lt; 0 &lt; 1 &amp; p(x) = p(1-p)^x, x=0,1,2, \cdots &amp; \mu = \frac{p}{q} &amp; \sigma^2 = \frac{1-p}{p^2} &amp; m(t) = p[1-(1-p)e^t]^{-1}, t &lt; -\log(1-p) \\
+\hline
+\text{Hypergeometric}(N,D,n) &amp; n=1,2,\cdots,\text{min}(N,D) &amp; p(x)=\frac{{N-D \choose n-x}{D \choose x}}{{N \choose n}}, x=0,1,2, \cdots, n &amp; \mu = n \frac{D}{N} &amp; \sigma^2 = n\frac{D}{N}\frac{N-D}{N}\frac{N-n}{N-1} &amp; \text{DNE} \\
+\hline
+\text{Negative Binomial} &amp; 0 &lt; p &lt; 1, r = 1,2, \cdots &amp; p(x) = {x+r-1 \choose r-1}p^r(1-p)^x, x=0,1,2,\cdots &amp; \mu = \frac{rp}{q} &amp; \sigma^2=\frac{r(1-p)}{p^2} &amp; m(t) = p^r[1-(1-p)e^t]^{-r},t &lt;-\log(1-p) \\
+\hline
+\text{Poisson} &amp; m &gt; 0 &amp; p(x) = e^{-m}\frac{m^x}{x!}, x=0,1,2,\cdots &amp; \mu=m &amp; \sigma^2=m &amp; m(t) = \text{exp}[m(e^t-1)], -\infty &lt; t &lt;\infty \\
+\hline
+\end{array}
+\]</span></p>
+
+    </div>
+  </article>
+
+  
+<section id="comments">
+  <div id="disqus_thread"></div>
+  <script>
+  var disqus_config = function () {
+  
+  };
+  (function() {
+    var inIFrame = function() {
+      var iframe = true;
+      try { iframe = window.self !== window.top; } catch (e) {}
+      return iframe;
+    };
+    if (inIFrame()) return;
+    var d = document, s = d.createElement('script');
+    s.src = '//http-jystatistics-rbind-io.disqus.com/embed.js'; s.async = true;
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+  })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</section>
+
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <a href="../../../../index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+          </li>
+          <li>
+            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="../../../../images/hugo-logo.png" alt="Img link to Hugo website" width="22" height="22"></a>
+          </li>
+        </ul>
+      </footer>
+
+    </div>
+    
+
+    
+<script src="../../../../js/math-code.js"></script>
+<script async src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-121054369-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+  </body>
+</html>
+

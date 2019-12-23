@@ -1,4 +1,5 @@
 baseurl = "https://jystatistics.netlify.com//"
+relativeurls = true
 languageCode = "en-us"
 title = "Welcome to Jongyun Jung's Website"
 theme = "hugo-lithium"

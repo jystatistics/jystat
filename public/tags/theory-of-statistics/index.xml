@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>`Theory of Statistics` on Welcome to Jongyun Jung&#39;s Website</title>
+    <link>/tags/theory-of-statistics/</link>
+    <description>Recent content in `Theory of Statistics` on Welcome to Jongyun Jung&#39;s Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 05 Jul 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/theory-of-statistics/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Sufficiency</title>
+      <link>/2018/07/05/sufficiency/</link>
+      <pubDate>Thu, 05 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/07/05/sufficiency/</guid>
+      <description>Ch 7. Sufficiency1. Measures of Quality of Estimators2. A Sufficient Statistics for a ParameterIn this post, I would like to write about Sufficiency. Here is the plan for this post.
+Ch 7. Sufficiency1. Measures of Quality of EstimatorsConsider a point estimator \(Y_n = u(X_1, \cdots, X_n)\) based on a sample \(X_1, \cdots, X_n\). There is a several properties of point estimators:</description>
+    </item>
+    
+  </channel>
+</rss>
