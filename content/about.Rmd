@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: "About Me"
 author: "Jongyun Jung"
 date: '2019-12-24'
 draft: false
@@ -8,7 +8,7 @@ output:
     toc: true 
 ---
 
-![My Picture](/./about_files/logo.png){width=50% height=50%}
+![Picture was taken at Yosemite National Park(https://www.yosemite.com/)](/./about_files/logo.png){width=50% height=50%}
 
 I'm currently pursuing Ph.D in Epidemiology and Biostatistics at University of Nevada, Las Vegas (https://www.unlv.edu/). \
 
