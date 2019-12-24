@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>`Papers` on Welcome to Jongyun Jung&#39;s Website</title>
+    <link>/tags/papers/</link>
+    <description>Recent content in `Papers` on Welcome to Jongyun Jung&#39;s Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 08 Aug 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/papers/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to read the academic paper</title>
+      <link>/2018/08/08/how-to-read-the-academic-paper/</link>
+      <pubDate>Wed, 08 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/08/08/how-to-read-the-academic-paper/</guid>
+      <description>This is the summary of my notes for “how to read the academic paper”.
+Useful links:
+how to read the academic article
+Advice on Reading Academic Papers
+How to read and understand a scientific paper: a guide for non-scientists
+Should I read papers?
+The Refreshingly Rewarding Realm of Research Papers(Youtube)
+</description>
+    </item>
+    
+  </channel>
+</rss>

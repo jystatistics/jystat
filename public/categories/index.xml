@@ -21,6 +21,24 @@
     </item>
     
     <item>
+      <title>`Academic Papers`</title>
+      <link>/categories/academic-papers/</link>
+      <pubDate>Wed, 08 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/academic-papers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>`Research`</title>
+      <link>/categories/research/</link>
+      <pubDate>Wed, 08 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/research/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Mathematical Statistics</title>
       <link>/categories/mathematical-statistics/</link>
       <pubDate>Thu, 05 Jul 2018 00:00:00 +0000</pubDate>
@@ -35,15 +53,6 @@
       <pubDate>Thu, 28 Jun 2018 00:00:00 +0000</pubDate>
       
       <guid>/categories/ggplot2/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>`Research`</title>
-      <link>/categories/research/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/research/</guid>
       <description></description>
     </item>
     
