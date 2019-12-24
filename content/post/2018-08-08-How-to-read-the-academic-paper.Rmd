@@ -1,7 +1,9 @@
 ---
 title: "How to read the academic paper"
 author: "Jongyun Jung"
-date: "8/8/2018"
+date: '2018-08-08'
+categories: ["`Academic Papers`"]
+tags: ["`Papers`"]
 output: html_document
 ---
 
