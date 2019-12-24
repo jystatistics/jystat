@@ -8,9 +8,10 @@ output:
     toc: true 
 ---
 
+![My Picture](/./about_files/logo.png){width=50% height=50%}
+
 I'm currently pursuing Ph.D in Epidemiology and Biostatistics at University of Nevada, Las Vegas (https://www.unlv.edu/). \
 
 I'm working at a graduate research assistant at The Nevada Institute of Personalized Medicine (NIPM) (https://www.unlv.edu/nipm).
 
-![](/./about_files/logo.png)
  
