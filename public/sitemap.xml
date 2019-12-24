@@ -3,12 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/tags/shiny/</loc>
+    <lastmod>2019-12-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/categories/shiny/</loc>
     <lastmod>2019-12-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/shiny/</loc>
+    <loc>/about/</loc>
     <lastmod>2019-12-24T00:00:00+00:00</lastmod>
   </url>
   
@@ -115,16 +120,6 @@
   <url>
     <loc>/2018/06/18/list-of-common-discrete-distributions/</loc>
     <lastmod>2018-06-18T21:13:14-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/about/</loc>
-    <lastmod>2016-05-05T21:48:51-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/about/</loc>
-    <priority>0</priority>
   </url>
   
 </urlset>
