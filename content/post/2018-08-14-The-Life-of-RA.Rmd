@@ -3,15 +3,15 @@ title: "The Life of RA"
 author: "Jongyun Jung"
 date: '2019-12-24'
 slug: Shiny
-categories: ["`Shiny`"]
-tags: ["`Shiny`"]
+categories: ["`Research`"]
+tags: ["`RA`"]
 draft: false
 output:
   blogdown::html_page:
     toc: true 
 ---
 
-This is my notes for how to develop RShiny app. 
+This is my note of life experience transition from a teaching assistant to a research assistant along with my academic experience. 
 
 - [Twitter #rshiny tweets](https://twitter.com/hashtag/rshiny?src=hash)
 
