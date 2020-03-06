@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>`RA` on Welcome to Jongyun Jung&#39;s Website</title>
+    <link>/tags/ra/</link>
+    <description>Recent content in `RA` on Welcome to Jongyun Jung&#39;s Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 24 Dec 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/ra/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The Life of RA</title>
+      <link>/2019/12/24/shiny/</link>
+      <pubDate>Tue, 24 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/2019/12/24/shiny/</guid>
+      <description> This is my note of life experience transition from a teaching assistant to a research assistant along with my academic experience.
+ Twitter #rshiny tweets  </description>
+    </item>
+    
+  </channel>
+</rss>

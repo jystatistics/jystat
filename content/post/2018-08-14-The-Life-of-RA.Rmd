@@ -11,9 +11,11 @@ output:
     toc: true 
 ---
 
-This is my note of life experience transition from a teaching assistant to a research assistant along with my academic experience. 
+This is my note of academic experience transition from a teaching assistant to a research assistant. Note that this is my opinion. 
 
-- [Twitter #rshiny tweets](https://twitter.com/hashtag/rshiny?src=hash)
+
+
+
 
 
 
